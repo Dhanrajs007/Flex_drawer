@@ -1,0 +1,56 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    background-color: #BD559C;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    width:15rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.4rem 0.4rem 0.4rem black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.common:hover{
+    background-color: #FF4466;
+    border: 0.1rem black;
+    border-style: solid;
+}
+
+.common:active{
+    background-color: #fc8ca1;
+}
+
+.header{
+    background-color: #FF4466;
+    border: 0.25rem;
+    border-style: none;
+    border-bottom-style: solid;
+    border-radius: 0.5rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    padding-left: 1rem;
+    margin: 0.5rem;
+}
+
+.child{
+    font-weight: 600;
+    background-color: #FF85CF;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.names{
+    padding-left: 1rem;
+    display: flex;
+    flex-grow: 1;
+}
